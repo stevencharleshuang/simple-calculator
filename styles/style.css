@@ -1,0 +1,39 @@
+* {}
+
+html {}
+
+body {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+  display: flex;
+  /* grid-template-columns: 50%; */
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.display {
+  margin: 0 auto;
+  background-color: #eee;
+  width: 300px;
+  height: 30px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-nums {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.btn-ops {
+  display: grid;
+  grid-template-columns: 100%;
+
+}
+
