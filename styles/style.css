@@ -22,18 +22,24 @@ body {
 }
 
 .btn-group {
+  margin: 20px auto;
   display: flex;
   justify-content: center;
 }
 
 .btn-nums {
+  margin-right: 10px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
 
 .btn-ops {
+  margin-left: 10px;
   display: grid;
   grid-template-columns: 100%;
 
 }
 
+.btn {
+  font-size: 20px;
+}
